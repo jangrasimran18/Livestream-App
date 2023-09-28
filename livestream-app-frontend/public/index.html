@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+   
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livestream App By Simran</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!-- Include CSS and JavaScript files here -->
+</head>
+<body>
+    <div id="livestream-container">
+        <iframe width="900" height="515" src="https://www.youtube.com/embed/uySR1N_z--M" frameborder="0" allowfullscreen></iframe>
+
+        
+    </div>
+    <div id="overlay-container">
+        <!-- Overlays will be dynamically added here -->
+    </div>
+    <div id="controls">
+        <button id="play-button">Play</button>
+        <button id="pause-button">Pause</button>
+        <input id="volume-slider" type="range" min="0" max="100">
+    </div>
+
+
+     <!-- CRUD Section -->
+     <div id="crud-section">
+        <!-- Form for adding and editing items -->
+        <form id="crud-form">
+            <input type="text" id="item-name" placeholder="Item Name"  required>
+            <input type="text" id="item-description" placeholder="Item Description">
+            <button type="submit" id="add-edit-button">Add/Edit Item</button>
+        <!-- Table to display items -->
+
+
+     
+        </form>
+        
+        
+    </div>
+</div>
+</body>
+</html>
